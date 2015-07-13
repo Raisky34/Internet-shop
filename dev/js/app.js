@@ -14,6 +14,13 @@ module.config(function($stateProvider, $urlRouterProvider) {
 	    controller: "ProductCtrl",
 	    data: {}
 	};
+	var productParams = {
+	    name: 'productparams',
+	    url: '/productparams',
+	    templateUrl: 'templates/productparams.html',
+	    controller: "ProductParamsCtrl",
+	    data: {}
+	};
 
 	$stateProvider
 		.state(productList);
